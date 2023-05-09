@@ -1,0 +1,40 @@
+a:link{
+    color:silver;
+    text-decoration: none;
+    font-weight:100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:visited{
+    color:silver;
+}
+
+.siyah_yaz{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mavi_yaz{
+    color:rgb(66, 160, 253);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Butonların stil ve renk özelliklerini ayarlamak için geçici olarak background oluşturdum.*/
+.navbar{
+    background-color:midnightblue;
+    width: 100%;
+    height: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.kutu{
+    background-color: silver;
+    width: 58px;
+    height:10 px;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
