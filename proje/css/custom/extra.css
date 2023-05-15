@@ -1,5 +1,5 @@
 body{
-    background-image: url("/resimler/back_ground.jpg");
+    background-image: url("/proje/resimler/back_ground.jpg");
 
 }
 
@@ -46,6 +46,22 @@ a:visited{
     margin-left:10%;
 }
 
+.kutu3{
+    background-color:rgb(227, 227, 227);
+    width: 80%;
+
+    border-radius: 0.5%;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left:10%;
+}
+
+
 .anasf_kutu{
     background-color:silver;
     width: 330px;
@@ -73,4 +89,9 @@ a:visited{
 
 .renk{
     color:silver;
+}
+
+.sola-kaydir{
+    float:left;
+    padding:0 10px 10px 0;
 }
