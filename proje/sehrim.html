@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanıtım sayfası</title>
+    <title>Şehrim</title>
 
     <style>
         @import url("css/all.css");
@@ -11,28 +11,150 @@
    
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark bg-body-tertiary">
+      <div id="nav-placeholder"></div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">REYHAN GENÇ</a>
+          <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="hakkimda.html">Hakkımda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Özgeçmiş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İlgi Alanlarım</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="sehrim.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Şehrim
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="sehrim.html"><h6 style="color:darkgrey">Şehrim</h6></a></li>
+                  <li><a class="dropdown-item" href="#"><h6 style="color:darkgrey">Mirasımız</h6></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İletişim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h6 class="login">login</h6></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
     <div class="kutu2">
-       <center>
-        <h3>SAKARYA</h3>
-        <img src="resimler/giris.jpg" width="80%" alt="resim bulunamadı">
-        <hr>
-        </center>
+        <h3 class="text-center">SAKARYA</h3>
 
+        <hr>
+        <p></p>
+        
+        <div class="card mb-3 bg-light border-primary" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/proje/resimler/harita.jpg" class="img-fluid rounded-start" alt="resim bulunamadı">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Coğrafi Konum ve Nüfus</h5> <hr>
+                <p class="card-text"><small><h6>Sakarya, Türkiye'nin en kalabalık yirmi ikinci ilidir. İl ismini topraklarından geçen Sakarya nehri'nden almıştır. Sakarya İlinin merkezi Adapazarı'dır. Adapazarı 2021 yılında Danimarka'da aldığı ödül ile bisiklet şehri unvanını kazanmıştır.
+                  2021 yılı sonu TÜİK verilerine göre il nüfusu: 1.060.876 dur. 16 ilçe ve belediye, bu belediyelerde toplam 668 mahalle bulunmaktadır.</h6></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 bg-light border-primary" style= "max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/proje/resimler/tarim.jpg" class="img-fluid rounded-start" alt="resim bulunamadı">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Tarım</h5> <hr>
+                <p class="card-text"><small><h6>Şehirde tarımın önemli bir yeri vardır. Hendek, Karasu ve Kocaali ilçelerinde fındık yetiştiriciliği mevcuttur.
+                   Geyve ilçesinde bulunan Eşme, ayvasıyla tanınmaktadır. Ayrıca mısır, şeker pancarı ve balkabağı tarımı da yapılmaktadır.</h6></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 bg-light border-primary" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+                <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/proje/resimler/camlica.jpg" widht=100% class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/proje/resimler/sakarya3.jpg" widht=100% class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/proje/resimler/sakarya.jpg" widht=100% class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/proje/resimler/sapanca.jpg" widht=100% class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Gezilecek Yerler</h5> <hr>
+                <p class="card-text"><small><h6>Sakarya, gezmek için pek çok doğal alana sahiptir. Şehrin coğrafi yapısını ovalar, göller, dağlar oluştumaktardır. İlin en yüksek dağı olan Keremali Dağı'nda bulunan Keremali Yaylası ve Çamlıca Gölü, özellikle sonbahar aylarında eşsiz bir güzelliğe sahiptir.
+                                Bunun dışında da pek çok yaylalar ve göller bulunmaktadır. Taraklı ilçesi tarihi evleri ve yemekleriyle ziyaretçilerini karşılar. Sapanca Gölü, merkeze fazla uzak olmaması sebebiyle sık sık tercih edilmektedir.
+                </h6></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <hr>
+
+        <p><h6>Aşağıdaki görsellerde Sakarya'da bulunan Sakarya Üniversitesi, Paraşüt Tepesi, Ayçiçeği Bisiklet Vadisi ve Acarlar Longozu yer almaktadır. Ayrıntılı bilgi için görsellere tıklayınız.</h6></p>
+        
+        <div class="kutu3">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/proje/resimler/kampus.jpg" class="d-block w-100" alt="resim bulunamadı">
+              <div class="carousel-item active" >
+                <a href="slide1.html">
+                  <img src="/proje/resimler/kampus.jpg" class="d-block w-100" alt="resim bulunamadı"></a>
               </div>
               <div class="carousel-item">
-                <img src="/proje/resimler/parasut.jpg" class="d-block w-100" alt="resim bulunamadı">
+                <a href="slide2.html">
+                <img src="/proje/resimler/parasut.jpg" class="d-block w-100" alt="resim bulunamadı"></a>
               </div>
               <div class="carousel-item">
-                <img src="/proje/resimler/camlica.jpg" class="d-block w-100" alt="resim bulunamadı">
+                <a href="slide3.html">
+                <img src="/proje/resimler/bisiklet.jpg" class="d-block w-100" alt="resim bulunamadı"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="slide4.html">
+                <img src="/proje/resimler/sakarya2.jpg" class="d-block w-100" alt="resim bulunamadı"></a>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -44,6 +166,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
     </div>
 
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>

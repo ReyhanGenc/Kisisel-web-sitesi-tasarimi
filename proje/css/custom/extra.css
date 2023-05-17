@@ -17,10 +17,6 @@ a:visited{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.gri_yaz{
-    color:darkgrey;
-}
-
 .kutu{
     background-color: silver;
     width: 58px;
@@ -49,7 +45,6 @@ a:visited{
 .kutu3{
     background-color:rgb(227, 227, 227);
     width: 80%;
-
     border-radius: 0.5%;
     padding-left: 20px;
     padding-right:20px;
@@ -60,7 +55,6 @@ a:visited{
     margin-right: 10%;
     margin-left:10%;
 }
-
 
 .anasf_kutu{
     background-color:silver;
@@ -78,20 +72,11 @@ a:visited{
     display: inline-block;
 }
 
-.right{
+.login{
     background-color:rgb(91, 172, 253);
     width: 58px;
     height:30px;
     border-radius: 5%;
     padding-left: 10px;
     padding-top: 5px;
-}
-
-.renk{
-    color:silver;
-}
-
-.sola-kaydir{
-    float:left;
-    padding:0 10px 10px 0;
 }
