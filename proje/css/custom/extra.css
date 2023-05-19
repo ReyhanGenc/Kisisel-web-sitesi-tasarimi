@@ -56,6 +56,35 @@ a:visited{
     margin-left:10%;
 }
 
+.kutu4{
+    background-color: silver;
+    width: 50%;
+    min-width: 420px;
+    border-radius: 1%;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+    display: inline-block;
+}
+
+.kutu5{
+    background-color:silver;
+    width: 420px;
+    float: left;
+    border-radius: 1%;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+}
+
 .anasf_kutu{
     background-color:silver;
     width: 330px;
@@ -80,3 +109,4 @@ a:visited{
     padding-left: 10px;
     padding-top: 5px;
 }
+
